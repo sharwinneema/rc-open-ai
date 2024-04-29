@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Upload Data</title>
+    
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+  </head>
+  <body>
+    <h1>Check Answers Using open.ai</h1>
+    <form action="" method="post">
+      <label for="paper_no">Paper No:</label>
+      <input type="number" id="paper_no" name="paper_no"><br><br>
+      <label for="student_id">Student ID:</label>
+      <input type="number" id="student_id" name="student_id"><br><br>
+      <label for="question_no">Question No:</label>
+      <input type="number" id="question_no" name="question_no"><br><br>
+      <label for="answer">Answer:</label>
+      <input type="text" id="answer" name="answer"><br><br>
+      <input type="submit" value="Upload">
+    </form>
+  </body>
+</html>
